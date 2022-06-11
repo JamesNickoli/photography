@@ -10,8 +10,10 @@ body {
 
 img {
     border-radius: 5px;
-    /* border: 1px solid #174166; */
     margin: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 a {
@@ -55,6 +57,13 @@ html {
 	}
 }
 
+.grid,.grid2,.grid3 {
+    margin: 0 auto;
+}
+
+.grid-item {
+    margin-bottom: 10px;
+}
 
 .dash-list {
     list-style-type: "-";
@@ -62,11 +71,12 @@ html {
 }
 
 .header {
+    border-bottom: 2px solid rgb(23, 65, 102);
     font-weight: bold;
     font-size: 2em !important;
-    margin: 0 0 0 1em;
+    margin: 0 1em 0.5em 1em;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     color: #0b5394; 
 }
  
@@ -115,6 +125,7 @@ html {
     background-color: #174166;
     position: relative;
     color: white;
+    box-shadow: 0 -3px 6px rgb(0 0 0 / 16%), 0 -3px 6px rgb(0 0 0 / 23%);
 }
 
 #info-bar a {
@@ -138,6 +149,7 @@ html {
         top: 0px;
         width:13em;
         height: 100%;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     }
 
     #info-bar .inline {
